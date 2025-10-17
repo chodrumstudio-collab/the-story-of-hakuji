@@ -1,81 +1,42 @@
-import { useEffect } from 'react';
 import { Snowflakes } from './Snowflakes';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 interface SplashScreenProps {
   onComplete: () => void;
 }
 
 export function SplashScreen({ onComplete }: SplashScreenProps) {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      onComplete();
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, [onComplete]);
-
   return (
     <div className="fixed inset-0 bg-black flex items-center justify-center overflow-hidden">
       <Snowflakes count={40} />
       <div className="relative z-10 flex flex-col items-center animate-fade-in">
-        {/* Compass Pattern */}
+        {/* Snowflake Image */}
         <div className="relative w-64 h-64 mb-8">
-          <svg
-            viewBox="0 0 200 200"
-            className="w-full h-full opacity-30 animate-pulse"
-            style={{ filter: 'drop-shadow(0 0 20px rgba(255, 25, 118, 0.5))' }}
-          >
-            <circle
-              cx="100"
-              cy="100"
-              r="80"
-              fill="none"
-              stroke="#FF1976"
-              strokeWidth="2"
-            />
-            <circle
-              cx="100"
-              cy="100"
-              r="60"
-              fill="none"
-              stroke="#FF1976"
-              strokeWidth="1"
-              opacity="0.6"
-            />
-            <circle
-              cx="100"
-              cy="100"
-              r="40"
-              fill="none"
-              stroke="#FF1976"
-              strokeWidth="1"
-              opacity="0.4"
-            />
-            {/* Compass points */}
-            {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => (
-              <line
-                key={i}
-                x1="100"
-                y1="100"
-                x2={100 + 80 * Math.cos((angle * Math.PI) / 180)}
-                y2={100 + 80 * Math.sin((angle * Math.PI) / 180)}
-                stroke="#FF1976"
-                strokeWidth={angle % 90 === 0 ? '2' : '1'}
-                opacity={angle % 90 === 0 ? '0.8' : '0.4'}
-              />
-            ))}
-            {/* Center pattern */}
-            <polygon
-              points="100,80 110,100 100,120 90,100"
-              fill="#FF1976"
-              opacity="0.5"
-            />
-          </svg>
+          <ImageWithFallback
+            src="/img/snowflake-splash.png"
+            alt="Snowflake"
+            className="w-full h-full object-contain opacity-80 animate-pulse"
+            style={{ filter: 'drop-shadow(0 0 30px rgba(200, 230, 255, 0.8))' }}
+          />
         </div>
         
         {/* Korean Text */}
-        <p className="text-white text-center px-8 tracking-wide" style={{ fontSize: '20px' }}>
+        <p className="text-white text-center px-8 tracking-wide mb-12" style={{ fontSize: '20px' }}>
           한 남자의 사랑과 상실의 이야기
         </p>
+
+        {/* Enter Button */}
+        <button
+          onClick={onComplete}
+          className="px-8 py-4 rounded-full text-white font-medium text-lg transition-all hover:scale-105 active:scale-95 animate-bounce-slow"
+          style={{
+            background: 'linear-gradient(135deg, #FF1976, #E91E63)',
+            boxShadow: '0 8px 32px rgba(255, 25, 118, 0.4)',
+            border: '2px solid rgba(255, 255, 255, 0.2)',
+          }}
+        >
+          입장하기
+        </button>
       </div>
       
       <style jsx>{`
@@ -89,8 +50,23 @@ export function SplashScreen({ onComplete }: SplashScreenProps) {
             transform: translateY(0);
           }
         }
+        @keyframes bounce-slow {
+          0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+          }
+          40% {
+            transform: translateY(-10px);
+          }
+          60% {
+            transform: translateY(-5px);
+          }
+        }
         .animate-fade-in {
           animation: fade-in 1.5s ease-out forwards;
+        }
+        .animate-bounce-slow {
+          animation: bounce-slow 2s infinite;
+          animation-delay: 2s;
         }
       `}</style>
     </div>
