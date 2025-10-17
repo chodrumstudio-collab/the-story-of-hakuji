@@ -86,7 +86,7 @@ export function TimelineHome({ onChapterSelect }: TimelineHomeProps) {
             <div className="flex items-center gap-2 mb-3">
               <Play size={20} color="#FF1976" />
               <h3 className="text-white" style={{ fontSize: '18px' }}>
-                하쿠지 관련 영상 #1
+                하쿠지의 사랑과 상실
               </h3>
             </div>
           </div>
@@ -103,7 +103,7 @@ export function TimelineHome({ onChapterSelect }: TimelineHomeProps) {
             >
               <iframe
                 src="https://www.youtube.com/embed/q1e9rZ-QHak"
-                title="하쿠지 관련 영상 #1"
+                title="하쿠지의 사랑과 상실"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
