@@ -9,27 +9,27 @@ interface Video {
 const videos: Video[] = [
   {
     id: 'q1e9rZ-QHak',
-    title: '아카자 관련 영상 #1',
+    title: '하쿠지 관련 영상 #1',
     embedUrl: 'https://www.youtube.com/embed/q1e9rZ-QHak'
   },
   {
     id: 'TICRYiJu9bA', 
-    title: '아카자 관련 영상 #2',
+    title: '하쿠지 관련 영상 #2',
     embedUrl: 'https://www.youtube.com/embed/TICRYiJu9bA'
   },
   {
     id: 'b4ahreRCBFI',
-    title: '아카자 관련 영상 #3', 
+    title: '하쿠지 관련 영상 #3', 
     embedUrl: 'https://www.youtube.com/embed/b4ahreRCBFI'
   },
   {
     id: '-ZKhYxP1nlM',
-    title: '아카자 관련 영상 #4',
+    title: '하쿠지 관련 영상 #4',
     embedUrl: 'https://www.youtube.com/embed/-ZKhYxP1nlM'
   },
   {
     id: 'k_8UE2gDdYU',
-    title: '아카자 관련 영상 #5',
+    title: '하쿠지 관련 영상 #5',
     embedUrl: 'https://www.youtube.com/embed/k_8UE2gDdYU'
   }
 ];
