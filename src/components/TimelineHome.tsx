@@ -136,7 +136,6 @@ export function TimelineHome({ onChapterSelect }: TimelineHomeProps) {
               onClick={() => onChapterSelect(chapter.id)}
               className="relative rounded-3xl p-6 cursor-pointer transition-all hover:scale-105"
               style={{
-                width: '345px',
                 height: '180px',
                 background: 'rgba(26, 31, 58, 0.8)',
                 boxShadow: '0px 4px 20px rgba(255, 25, 118, 0.3)',

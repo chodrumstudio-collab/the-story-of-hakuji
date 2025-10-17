@@ -41,9 +41,9 @@ export default function App() {
 
   return (
     <div 
-      className="relative mx-auto overflow-x-hidden"
+      className="relative overflow-x-hidden"
       style={{
-        width: '393px',
+        width: '100%',
         minHeight: '100vh',
         background: '#0A0E27',
       }}
