@@ -1,4 +1,4 @@
-import { Heart, Flame, HeartCrack, Skull, Snowflake, User, Sparkles } from 'lucide-react';
+import { Heart, Flame, HeartCrack, Skull, Snowflake, User, Sparkles, Play } from 'lucide-react';
 
 interface TimelineHomeProps {
   onChapterSelect: (chapter: number) => void;
@@ -71,8 +71,63 @@ export function TimelineHome({ onChapterSelect }: TimelineHomeProps) {
         <h1 className="text-white text-center" style={{ fontSize: '28px' }}>The Story of Hakuji</h1>
       </div>
 
-      {/* Timeline Cards */}
       <div className="px-6 pt-6 space-y-5">
+        {/* Featured Video Section */}
+        <div
+          className="relative rounded-3xl overflow-hidden"
+          style={{
+            background: 'rgba(26, 31, 58, 0.8)',
+            boxShadow: '0px 4px 20px rgba(255, 25, 118, 0.3)',
+            backdropFilter: 'blur(10px)',
+          }}
+        >
+          {/* Video Title */}
+          <div className="p-4 pb-2">
+            <div className="flex items-center gap-2 mb-3">
+              <Play size={20} color="#FF1976" />
+              <h3 className="text-white" style={{ fontSize: '18px' }}>
+                아카자 관련 영상 #1
+              </h3>
+            </div>
+          </div>
+
+          {/* YouTube Video */}
+          <div className="mx-4 mb-4">
+            <div 
+              className="relative rounded-2xl overflow-hidden"
+              style={{
+                paddingBottom: '56.25%', // 16:9 aspect ratio
+                height: 0,
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)',
+              }}
+            >
+              <iframe
+                src="https://www.youtube.com/embed/q1e9rZ-QHak"
+                title="아카자 관련 영상 #1"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute top-0 left-0 w-full h-full"
+              />
+            </div>
+          </div>
+
+          {/* Video Indicator */}
+          <div 
+            className="absolute top-4 right-4" 
+            style={{ 
+              fontSize: '36px', 
+              color: '#FF1976', 
+              opacity: 0.2, 
+              lineHeight: 1,
+              fontWeight: 'bold' 
+            }}
+          >
+            VIDEO
+          </div>
+        </div>
+
+        {/* Timeline Cards */}
         {chapters.map((chapter, index) => {
           const Icon = chapter.icon;
           return (
