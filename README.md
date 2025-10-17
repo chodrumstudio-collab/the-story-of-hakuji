@@ -1,11 +1,9 @@
+# The Story of Hakuji - Mobile Fan Website
 
-  # Mobile Fan Website Design
+This is a mobile fan website design showcasing the tragic story of Hakuji/Akaza from Demon Slayer. The original project is available at https://www.figma.com/design/x3Z8LrVGHihphSK7ZCjXeV/Mobile-Fan-Website-Design.
 
-  This is a code bundle for Mobile Fan Website Design. The original project is available at https://www.figma.com/design/x3Z8LrVGHihphSK7ZCjXeV/Mobile-Fan-Website-Design.
+## Running the code
 
-  ## Running the code
+Run `npm i` to install the dependencies.
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+Run `npm run dev` to start the development server.
