@@ -4,10 +4,11 @@ import { TimelineHome } from './components/TimelineHome';
 import { DualProfile } from './components/DualProfile';
 import { StoryDetail } from './components/StoryDetail';
 import { RelationshipDiagram } from './components/RelationshipDiagram';
+import { VideoList } from './components/VideoList';
 import { FanMessages } from './components/FanMessages';
 import { BottomNav } from './components/BottomNav';
 
-type Screen = 'splash' | 'timeline' | 'profile' | 'story' | 'relationships' | 'messages';
+type Screen = 'splash' | 'timeline' | 'profile' | 'story' | 'relationships' | 'videos' | 'messages';
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<Screen>('splash');
@@ -77,6 +78,13 @@ export default function App() {
         <>
           <RelationshipDiagram />
           <BottomNav activeScreen="relationships" onNavigate={handleNavigate} />
+        </>
+      )}
+
+      {currentScreen === 'videos' && (
+        <>
+          <VideoList />
+          <BottomNav activeScreen="videos" onNavigate={handleNavigate} />
         </>
       )}
 

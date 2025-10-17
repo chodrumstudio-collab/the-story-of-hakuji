@@ -35,7 +35,7 @@ const quotes = [
   },
   {
     id: 6,
-    text: '벚꽃이 보고 싶다',
+    text: '불꽃놀이가 보고 싶다',
     image: 'https://images.unsplash.com/photo-1621239793038-49f40616733d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGVycnklMjBibG9zc29tJTIwc3Vuc2V0fGVufDF8fHx8MTc2MDcxMTU2Nnww&ixlib=rb-4.1.0&q=80&w=1080',
     episode: 'EP. 18',
   },

@@ -16,7 +16,7 @@ const people: Person[] = [
     id: 'father',
     name: '아버지',
     relationship: '아버지',
-    image: '/img/관계도/하쿠지 아버지/G0kJJNZbsAAL767.jpg',
+    image: '/img/relationships/하쿠지 아버지/G0kJJNZbsAAL767.jpg',
     description: '병든 아버지를 위해 범죄의 길로 들어선 하쿠지. 아버지에 대한 사랑이 모든 이야기의 시작이었다.',
     color: '#FFB300',
   },
@@ -24,7 +24,7 @@ const people: Person[] = [
     id: 'keizo',
     name: '케이조 사부님',
     relationship: '케이조 사부님',
-    image: '/img/관계도/케이조 사부님/JBblGz1UE00gM1jrRGwOlTyAns3urJVaQeY5N8PfkC7LT-J0bLaJVlPqjG9FEwCdGIdJgEHcFlY-mG_B91k92Q.webp',
+    image: '/img/relationships/케이조 사부님/JBblGz1UE00gM1jrRGwOlTyAns3urJVaQeY5N8PfkC7LT-J0bLaJVlPqjG9FEwCdGIdJgEHcFlY-mG_B91k92Q.webp',
     description: '하쿠지에게 새로운 삶의 기회를 준 도장의 사부. 그를 제자이자 가족으로 받아들였다.',
     color: '#FFB300',
   },
@@ -32,7 +32,7 @@ const people: Person[] = [
     id: 'koyuki',
     name: '코유키',
     relationship: '코유키',
-    image: '/img/관계도/코유키/images.jpeg',
+    image: '/img/relationships/코유키/images.jpeg',
     description: '하쿠지의 영원한 사랑. 그녀와의 약속이 하쿠지를 인간으로 만들었고, 그녀의 죽음이 악마를 탄생시켰다.',
     color: '#FF6B6B',
   },
@@ -40,7 +40,7 @@ const people: Person[] = [
     id: 'muzan',
     name: '무잔',
     relationship: '무잔',
-    image: '/img/관계도/무잔/53886d4a-4dee-4b7c-ba3b-05fb4fc62c0f.webp',
+    image: '/img/relationships/무잔/53886d4a-4dee-4b7c-ba3b-05fb4fc62c0f.webp',
     description: '절망에 빠진 하쿠지를 악마로 만든 귀의 시조. 그에게 힘을 주었지만 모든 기억을 앗아갔다.',
     color: '#FF1976',
   },
@@ -89,7 +89,7 @@ export function RelationshipDiagram() {
           }}
         >
           <ImageWithFallback
-            src="/img/관계도/하쿠지/8e81f06a-1ef8-43e2-a7c9-22eb188adb51.webp"
+            src="/img/relationships/하쿠지/8e81f06a-1ef8-43e2-a7c9-22eb188adb51.webp"
             alt="Hakuji"
             className="w-full h-full object-cover"
           />

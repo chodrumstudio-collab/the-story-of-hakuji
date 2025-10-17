@@ -23,7 +23,7 @@ const storyContent: Record<number, {
 
 혼자 남겨진 하쿠지는 절망과 죄책감에 시달렸다. 그는 자신의 문신(罪人, 죄인)을 보며 범죄자로서의 낙인을 평생 짊어지게 되었다.`,
     quote: '아버지... 미안해요. 제가 범죄자가 아니었다면...',
-    images: ['/img/ch1. 하쿠지 - 범죄자였던 소년/8e81f06a-1ef8-43e2-a7c9-22eb188adb51.webp'],
+    images: ['/img/ch1-hakuji/8e81f06a-1ef8-43e2-a7c9-22eb188adb51.webp'],
     source: '鬼滅の刃 (Demon Slayer) - 하쿠지 과거편',
     sourceUrl: 'https://kimetsu-no-yaiba.fandom.com/wiki/Hakuji',
   },
@@ -36,8 +36,8 @@ const storyContent: Record<number, {
 케이조는 하쿠지에게 새로운 삶의 기회를 주었다. 처음으로 하쿠지는 진정으로 자신을 믿어주는 사람을 만났다. 도장에서 수련하며, 하쿠지는 서서히 인간다운 삶을 되찾기 시작했다.`,
     quote: '사부님... 저 같은 인간에게 이런 기회를 주시다니',
     images: [
-      '/img/ch2. 구원 - 케이조와의 만남/JBblGz1UE00gM1jrRGwOlTyAns3urJVaQeY5N8PfkC7LT-J0bLaJVlPqjG9FEwCdGIdJgEHcFlY-mG_B91k92Q.webp',
-      '/img/ch2. 구원 - 케이조와의 만남/다운로드.jpeg'
+      '/img/ch2-keizo/JBblGz1UE00gM1jrRGwOlTyAns3urJVaQeY5N8PfkC7LT-J0bLaJVlPqjG9FEwCdGIdJgEHcFlY-mG_B91k92Q.webp',
+      '/img/ch2-keizo/다운로드.jpeg'
     ],
     source: '鬼滅の刃 (Demon Slayer) - 무한열차 편',
     sourceUrl: 'https://kimetsu-no-yaiba.fandom.com/wiki/Keizo',
@@ -48,13 +48,13 @@ const storyContent: Record<number, {
 
 코유키 역시 하쿠지의 진심을 알아보았다. 두 사람은 서로 사랑하게 되었고, 케이조의 허락을 받아 약혼했다.
 
-"하쿠지, 내가 완전히 건강해지면 벚꽃 축제에 함께 가요. 약속해요."
+"하쿠지, 내가 완전히 건강해지면 불꽃놀이에 함께 가요. 약속해요."
 
 하쿠지는 그녀의 손을 잡으며 맹세했다. "약속할게. 반드시 너를 행복하게 해줄게. 평생 지킬게." 
 
 그의 팔의 문신은 더 이상 죄인의 표식이 아니었다. 사랑하는 사람을 위해 강해지겠다는 다짐이었다.`,
     quote: '코유키, 너를 만나 난 처음으로 행복이 뭔지 알았어',
-    images: ['/img/ch3. 사랑 - 코유키와의 약속/oar2.jpg'],
+    images: ['/img/ch3-koyuki/oar2.jpg'],
     source: '鬼滅の刃 (Demon Slayer) - 상현 삼 과거',
     sourceUrl: 'https://kimetsu-no-yaiba.fandom.com/wiki/Koyuki',
   },
@@ -70,7 +70,7 @@ const storyContent: Record<number, {
 
 그날 밤, 눈이 내렸다. 마치 하늘도 함께 울고 있는 것처럼.`,
     quote: '내가... 여기 있었어야 했는데... 지키지 못했어...',
-    images: ['/img/ch4. 비극 - 돌이킬 수 없는 날/_OfIvLe30iR3a_aSnRs6VHb8QJO-p5XihhUpKsIZCMY2XZstqzA0btZfAe9SnFgV68t7y28jk8DdtmbBEp8aSw.webp'],
+    images: ['/img/ch4-tragedy/_OfIvLe30iR3a_aSnRs6VHb8QJO-p5XihhUpKsIZCMY2XZstqzA0btZfAe9SnFgV68t7y28jk8DdtmbBEp8aSw.webp'],
     source: '鬼滅の刃 18권 - 아카자 회상',
     sourceUrl: 'https://kimetsu-no-yaiba.fandom.com/wiki/Akaza',
   },
@@ -84,7 +84,7 @@ const storyContent: Record<number, {
 
 눈 내리는 밤, 피로 얼룩진 하쿠지는 무릎을 꿇었다. "코유키... 미안해. 약속... 지키지 못했어."`,
     quote: '다 죽였어... 하지만 네가 돌아오지 않아',
-    images: ['/img/ch5. 복수와 절망/15843760862.jpg'],
+    images: ['/img/ch5-revenge/15843760862.jpg'],
     source: '鬼滅の刃 애니메이션 시즌 2',
     sourceUrl: 'https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba',
   },
@@ -96,15 +96,15 @@ const storyContent: Record<number, {
 
 무잔의 피를 받은 하쿠지는 귀가 되었다. 하지만 그 대가로 그는 모든 인간으로서의 기억을 잃었다.
 
-코유키의 얼굴, 케이조의 목소리, 벚꽃 축제의 약속. 모든 것이 사라졌다. 남은 것은 오직 강해지고자 하는 본능뿐.
+코유키의 얼굴, 케이조의 목소리, 불꽃놀이의 약속. 모든 것이 사라졌다. 남은 것은 오직 강해지고자 하는 본능뿐.
 
 이제 그는 하쿠지가 아니었다. 상현 삼, 아카자가 되었다.`,
     quote: '강해져야 해... 왜인지 모르겠지만... 반드시',
     images: [
-      '/img/ch6. 아카자의 탄생/47635da3535f4cacd3ba5d1f2967e5b8.jpg',
-      '/img/ch6. 아카자의 탄생/FK0-WMrALeZuZAUo7OqFs2EC_Gdy9KbC5bMn5D6YbPu5t9E10jG3z070pNkH1cTYcfJm-RSSjYpJ_WD_uRLBbg.webp',
-      '/img/ch6. 아카자의 탄생/HyP9NrKRAqHSgz4D2U54jYy5pDfbr2u9PDOjcaRQm5pZ3un5Mx_VZQu97guhqQn391AZbfnoU5fvsoNwTz_KrA.webp',
-      '/img/ch6. 아카자의 탄생/image-34f6bda4-5b04-40a5-ac42-3d4c9b1c7268.jpeg'
+      '/img/ch6-akaza/47635da3535f4cacd3ba5d1f2967e5b8.jpg',
+      '/img/ch6-akaza/FK0-WMrALeZuZAUo7OqFs2EC_Gdy9KbC5bMn5D6YbPu5t9E10jG3z070pNkH1cTYcfJm-RSSjYpJ_WD_uRLBbg.webp',
+      '/img/ch6-akaza/HyP9NrKRAqHSgz4D2U54jYy5pDfbr2u9PDOjcaRQm5pZ3un5Mx_VZQu97guhqQn391AZbfnoU5fvsoNwTz_KrA.webp',
+      '/img/ch6-akaza/image-34f6bda4-5b04-40a5-ac42-3d4c9b1c7268.jpeg'
     ],
     source: '鬼滅の刃 - 무한성 편',
     sourceUrl: 'https://kimetsu-no-yaiba.fandom.com/wiki/Upper_Rank_Three',
@@ -115,19 +115,19 @@ const storyContent: Record<number, {
 
 재생할 것인가, 아니면...
 
-그때 기억이 돌아왔다. 눈 내리는 밤, 그녀의 미소, 벚꽃 축제의 약속. 코유키... 그녀의 이름을 기억해냈다.
+그때 기억이 돌아왔다. 눈 내리는 밤, 그녀의 미소, 불꽃놀이의 약속. 코유키... 그녀의 이름을 기억해냈다.
 
-"코유키... 미안해. 약속 지키지 못했어. 벚꽃 축제... 함께 가지 못했어."
+"코유키... 미안해. 약속 지키지 못했어. 불꽃놀이... 함께 가지 못했어."
 
 아카자는 스스로를 파괴하기로 선택했다. 귀로서가 아닌, 하쿠지로서 죽기 위해.
 
 소멸하는 순간, 그는 코유키를 보았다. "늦었어... 하쿠지." 그녀가 미소 지으며 말했다. "이제 함께 가요."`,
     quote: '코유키... 기다려줘서 고마워. 이제 함께 갈게',
     images: [
-      '/img/ch7. 잊혀진 기억/09347be5b07ecc279a592d444d623fcc.jpg',
-      '/img/ch7. 잊혀진 기억/images (2).jpeg',
-      '/img/ch7. 잊혀진 기억/images.jpeg',
-      '/img/ch7. 잊혀진 기억/NpIzPB0Q6UmgezM331VU-ZwJJ6inCLVYhIrOlqelRPAA8EmS4gpUyist9_o3jn0nHurbPxoTSAza7HxHA4qTZQ.webp'
+      '/img/ch7-memory/09347be5b07ecc279a592d444d623fcc.jpg',
+      '/img/ch7-memory/images (2).jpeg',
+      '/img/ch7-memory/images.jpeg',
+      '/img/ch7-memory/NpIzPB0Q6UmgezM331VU-ZwJJ6inCLVYhIrOlqelRPAA8EmS4gpUyist9_o3jn0nHurbPxoTSAza7HxHA4qTZQ.webp'
     ],
     source: '鬼滅の刃 18권 - 엔딩',
     sourceUrl: 'https://kimetsu-no-yaiba.fandom.com/wiki/Akaza',

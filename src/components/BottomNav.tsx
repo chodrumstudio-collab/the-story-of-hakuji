@@ -1,4 +1,4 @@
-import { Clock, Users, MessageCircle } from 'lucide-react';
+import { Clock, Users, MessageCircle, Play } from 'lucide-react';
 
 interface BottomNavProps {
   activeScreen: string;
@@ -9,6 +9,7 @@ export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
   const navItems = [
     { id: 'timeline', icon: Clock, label: '타임라인' },
     { id: 'relationships', icon: Users, label: '관계도' },
+    { id: 'videos', icon: Play, label: '동영상' },
     { id: 'messages', icon: MessageCircle, label: '메시지' },
   ];
 

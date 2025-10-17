@@ -4,7 +4,7 @@ import { Snowflakes } from './Snowflakes';
 const messages = [
   {
     id: 1,
-    username: '벚꽃처럼',
+    username: '불꽃놀이처럼',
     date: '2024.10.15',
     avatar: '🌸',
     message: '하쿠지, 당신의 사랑은 영원히 기억될 거예요. 코유키와의 약속, 잊지 않을게요.',

@@ -23,7 +23,7 @@ const chapters = [
     id: 3,
     number: '03',
     title: '사랑 - 코유키와의 약속',
-    description: '벚꽃처럼 아름답고 순수했던 첫사랑',
+    description: '불꽃놀이처럼 아름답고 순수했던 첫사랑',
     icon: Heart,
   },
   {

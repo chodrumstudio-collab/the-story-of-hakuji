@@ -1,12 +1,11 @@
 {
-  "version": 2,
-  "builds": [
+  "buildCommand": "yarn build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
+      "source": "/((?!img/).*)",
+      "destination": "/index.html"
     }
   ]
 }
