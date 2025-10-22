@@ -28,9 +28,9 @@ const videos: Video[] = [
     embedUrl: 'https://www.youtube.com/embed/-ZKhYxP1nlM'
   },
   {
-    id: 'k_8UE2gDdYU',
+    id: '9ML_F2y0d2s',
     title: '하쿠지 관련 영상 #5',
-    embedUrl: 'https://www.youtube.com/embed/k_8UE2gDdYU'
+    embedUrl: 'https://www.youtube.com/embed/9ML_F2y0d2s'
   }
 ];
 
