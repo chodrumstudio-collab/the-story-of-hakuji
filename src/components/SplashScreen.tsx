@@ -85,34 +85,6 @@ export function SplashScreen({ onComplete }: SplashScreenProps) {
         </button>
       </div>
       
-      <style jsx>{`
-        @keyframes fade-in {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        @keyframes fade-in-delayed {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-        .animate-fade-in {
-          animation: fade-in 1.5s ease-out forwards;
-        }
-        .animate-fade-in-delayed {
-          animation: fade-in-delayed 0.8s ease-out forwards;
-          animation-delay: 2s;
-          opacity: 0;
-        }
-      `}</style>
     </div>
   );
 }
