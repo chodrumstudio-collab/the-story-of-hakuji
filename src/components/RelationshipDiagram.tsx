@@ -41,7 +41,7 @@ const people: Person[] = [
     name: '무잔',
     relationship: '무잔',
     image: '/img/relationships/무잔/53886d4a-4dee-4b7c-ba3b-05fb4fc62c0f.webp',
-    description: '절망에 빠진 하쿠지를 악마로 만든 귀의 시조. 그에게 힘을 주었지만 모든 기억을 앗아갔다.',
+    description: '절망에 빠진 하쿠지를 악마로 만든 혈귀의 시조. 그에게 힘을 주었지만 모든 기억을 앗아갔다.',
     color: '#FF1976',
   },
 ];
